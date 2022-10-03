@@ -158,8 +158,8 @@ MonoBehaviour:
       m_Calls: []
   bulletObject: {fileID: 7601201253897987099, guid: 2f38db1c3f66ff049ae24ee21efc7416, type: 3}
   bulletTag: Bullet
-  bulletInterval: 0.125
-  bulletSpawnForwardOffset: 0.7
+  bulletInterval: 0.15
+  bulletSpawnForwardOffset: 0.8
   bulletCooldownIncrement: 0.0078125
   passiveCooldownMultiplier: 0.001
   cooldownInterval: 10

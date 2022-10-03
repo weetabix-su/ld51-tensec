@@ -15,6 +15,7 @@ public class BulletMoveForward : MonoBehaviour
     public float speed = 2.25f;
 
     Collider2D col;
+    float ttl = 10f;
 
     public HitEvent onHit = new HitEvent();
 
@@ -26,6 +27,10 @@ public class BulletMoveForward : MonoBehaviour
     void Update()
     {
         transform.position += transform.up * speed * Time.deltaTime;
+        if (ttl > 0f)
+            ttl -= Time.deltaTime;
+        else
+            Destroy(this.gameObject);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

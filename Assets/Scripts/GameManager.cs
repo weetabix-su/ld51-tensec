@@ -208,7 +208,7 @@ public class GameManager : MonoBehaviour
     {
         if (currentLife >= 10)
             return;
-
+        playSFXAddLife();
         currentLife++;
     }
 

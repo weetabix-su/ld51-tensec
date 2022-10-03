@@ -1006,7 +1006,7 @@ MonoBehaviour:
   spawnables:
   - {fileID: 3792321357310027329, guid: f1ebea453808d94409bddce285904428, type: 3}
   - {fileID: 5158584569051998961, guid: cbf0620428fe3c34d8f152b77d344fd0, type: 3}
-  spawnArea: {x: 32, y: 32}
+  spawnArea: {x: 31, y: 31}
 --- !u!1 &522684862
 GameObject:
   m_ObjectHideFlags: 0
